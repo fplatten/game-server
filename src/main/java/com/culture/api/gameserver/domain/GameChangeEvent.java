@@ -12,7 +12,8 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 @JsonIgnoreProperties(ignoreUnknown=true)
 @Entity
-public class GameChangeEvent {
+public class
+GameChangeEvent {
 	
 	@Id
 	@GeneratedValue(strategy=GenerationType.AUTO)
